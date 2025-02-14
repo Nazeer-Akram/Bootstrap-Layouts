@@ -7,6 +7,13 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<style>
+	/* navigation row */
+	.navigationItems{margin-right:14px; width: 38px; height:37px; border-radius:25px; border:none;
+		
+	}
+	.navigationItems:hover{background-color:rgb(175, 209, 230); transition:100ms;}
+</style>																																	
 
 <title>konrix</title>
 </head>
@@ -39,21 +46,21 @@
 
 					<!-- 1st Row : Navigation -->
 							<div class="row gx-0 sticky-top">
-								<div class="col-12 bg-white" style="height:63px; border-radius:4px;">
+								<div class="col-12 bg-white" style="height:70px; border-radius:4px;">
 									<div class="row gx-0 justify-content-between">
 										<div class="col-2" >
 											<ul class="list-group list-group-flush list-group-horizontal  align-items-center "style="height: 62px;">
-												<li class="list-group-item p-1 ms-3 bg-warning text-center" style="width: 33px; border-radius:25px; border:none;">FL</li>
-												<li class="list-group-item p-1 ms-3 bg-warning text-center" style="width: 33px; border-radius:25px; border:none;">FL</li>
+												<li class=" list-group-item p-1  text-center mt-2 ms-4 navigationItems" style="border-radius:40px;"><span><img src="icons/hamburger.png" style="width:15px; height: 17px;"></span></li>
+												<li class=" list-group-item p-1  text-center mt-2 navigationItems" style="border-radius:40px;"><span><img src="icons/loupe.png" style="width:19px; height: 19px;"></span></li>
 											</ul>
 										</div>
 										<div class="col-3 ">
-											<ul class="list-group list-group-flush list-group-horizontal justify-content-around align-items-center "style="height: 62px;">
-												<li class="list-group-item p-1 bg-warning text-center" style="width: 33px; border-radius:25px; border:none;">FL</li>
-												<li class="list-group-item p-1 bg-warning text-center" style="width: 33px; border-radius:25px; border:none;">FL</li>
-												<li class="list-group-item p-1 bg-warning text-center" style="width: 33px; border-radius:25px; border:none;">FL</li>
-												<li class="list-group-item p-1 bg-warning text-center" style="width: 33px; border-radius:25px; border:none;">FL</li>
-												<li class="list-group-item p-1 me-2 bg-info text-center" style="height: 35px; width: 34px; border-radius:40px; border:none;">FL</li>
+											<ul class="  list-group list-group-flush list-group-horizontal justify-content-end  align-items-center "style="height: 62px;">
+												<li class=" list-group-item p-1  text-center mt-2 navigationItems" style="border-radius:40px;"><span><img src="icons/us.jpg"  alt="" style="width:24px; height: 16px;"></span></li>
+												<li class=" list-group-item p-1  text-center mt-2 navigationItems"><span><img src="icons/fullscreen.png" style="width:18px; height: 18px;"></span></li>
+												<li class="list-group-item p-1  text-center mt-2 navigationItems" ><span><img src="icons/bell.png" style="width:27px; height: 27px;"></span></li>
+												<li class="list-group-item p-1  text-center mt-2 navigationItems"><span><img src="icons/half-moon.png" style="width:18px; height: 18px;"></span></li>
+												<li class="list-group-item p-1 text-center mt-2 " style="margin-right: 12px; border:none;" ><span><img src="icons/user-6.jpg" style="margin-top: -5px; margin-left:-4px; width:40px; height:40px; border-radius:40px;"></span></li>
 
 											</ul>
 										</div>
@@ -62,13 +69,19 @@
 							</div>
 
 					<!-- 2nd Row : Logo--&--Iconcs  -->
-							<div class="row gx-0 px-4 ">
+							<div class="row gx-0 px-4 mt-2">
 								<div class="col-12 ">
 									<div class="row gx-0  justify-content-between ">
-										<div class="col-2  " style="font-weight:500; font-size: 17px; height:70px; font-family:'Inter';">
-											<p style="margin-top: 23px;">Dashboard</p>
+										<div class="col-2  " style="font-weight:600; color:rgb(66, 66, 66); font-size: 18px; height:70px; font-family:'Inter';">
+											<p class="ms-2" style="margin-top:16px;">Dashboard</p>
 										</div>
-										<div class="col-3 border"></div>
+										<div class="col-3  d-flex align-items-center justify-content-end">
+											<ol class="breadcrumb ">				
+												<li class="breadcrumb-item fw-500" style="font-size: 15px;">Konrix</li>
+												<li class="breadcrumb-item fw-500" style="font-size: 15px;">Menu</li>
+												<li class="breadcrumb-item fw-500" style="font-size: 15px;">Dashboard</li>
+											</ol>
+										</div>
 									</div>																										
 								</div>
 							</div>
